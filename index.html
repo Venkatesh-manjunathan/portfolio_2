@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/1da17cfe3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="Img/V-logo.jpg" class="logo">
+                <ul id="sidemenu"><li><a href="#header">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            <i class="fas fa-times" style="color: black;" id="t" onclick="closemenu()"></i>
+        </ul>
+            
+            <i class="fas fa-bars" id="t" onclick="openmenu()"></i>
+            </nav>
+            <script>
+                var sidemenu=document.getElementById('sidemenu');
+                function closemenu()
+                {
+                    sidemenu.style.right='-200px';
+                }
+                function openmenu()
+                {
+                    sidemenu.style.right='0';
+                }
+            </script>
+            
+            <div class="header-text"><p>WEB DEVELOPER & SOFTWARE DEVELOPER</p>
+                <h1>Hi! I'm <span>venkatesh<span style="color:orangered">'</span>z
+                </span> <br>From India</h1> 
+           
+        </div>
+    </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Picsart_23-06-22_10-09-02-560.jpg">
+                </div>
+                <div class="col-2"><h1 class="subtitle" style="color: black;">about me</h1>
+                <p style="color: black; font-weight: 600;">I graduated from AG Arts and Science College in Avinashipalayam, 
+                    Koduvai. I possess a solid understanding of the fundamentals of digital marketing. 
+                    Additionally, I am currently honing my skills in full-stack development through 
+                    coursework at CADD Center.</p>
+            <div class="tab-titles" style="color: orangered; font-weight: 700;">
+                <p class="tab-links active-link" onclick="tabopen('skills')">skills</p>
+                <p class="tab-links" onclick="tabopen('experience')">experiance</p>
+                <p class="tab-links" onclick="tabopen('education')">education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills"><ul><li><span>java script/python</span><br>software developement</li>
+                <li><span>html/css/java script</span><br>webdesigning</li>
+                <li><span>mean</span><br>web developement</li>
+                <li><span>ms word/ms office</span><br>office administrate</li></ul>
+      </div>
+      <div class="tab-contents" id="experience">
+        <ul><li><span>have no experiance</span><br> but im eager to work </li></ul>
+
+      </div>
+      <div class="tab-contents" id="education">
+        <ul><li><span>2023-current</span><br>studying in cadd center</li>
+        <li><span>2021-2022</span><br>digital marketting</li>
+        <li><span>2017-2020</span><br>ag arts and science</li>
+        <li></li></ul>
+      </div>
+                         
+            
+        </div>
+       
+    </div>
+    </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my service</h1>
+            <div class="services-list">
+             <div>
+                <i class="fa-solid fa-paperclip"></i>
+                <h2>software developer</h2>
+                <p>Enthusiastic and detail-oriented software developer with a passion for creating 
+                    innovative solutions. Eager to contribute technical skills and a 
+                    strong educational background to a dynamic development team.</p>
+                <a href="#">learn more</a>
+            </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>web developement</h2>
+                         <p>Motivated and detail-oriented web developer passionate about creating 
+                            engaging and user-friendly web experiences. Eager to contribute my skills in front-end
+                             and back-end development to a collaborative and innovative team.</p>
+                    <a href="#">learn more</a>
+                </div>
+                        <div>
+                            <i class="fa-solid fa-helmet-safety"></i>
+                            <h2>office administration</h2>
+                            <p>Detail-oriented and tech-savvy individual with a solid foundation in Microsoft Office applications.
+                                 Eager to leverage
+                                 my skills in administrative tasks and contribute to a professional environment.</p>
+                            <a href="#">learn more</a>
+                        </div>   
+            </div>
+            
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">my work</h1>
+            <div class="work-list">
+                <div class="work-list">
+                    <div class="work">
+                    <img src="/Img/Screenshot 2024-01-14 102835.png" alt="">
+                    <div class="layer">
+                        <h3>mean_website</h3>
+                        <p>The Online Task Management Application is a dynamic and user-friendly web platform developed 
+                            using the MEAN stack—MongoDB for the database, Express.js for the backend, Angular for the frontend, 
+                            and Node.js for server-side scripting. The application serves as a 
+                            comprehensive solution for managing tasks and projects in a collaborative environment</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                    <img src="/Img/Screenshot 2024-01-14 103445.png" alt="">
+                    <div class="layer">
+                        <h3>mongoose_crud</h3>
+                        <p>The Task Management Application is a full-stack CRUD (Create, Read, Update, Delete) 
+                            project developed using the Mongoose library for MongoDB and Node.js. This application allows users 
+                            to manage tasks by performing various operations such as adding, viewing, updating, and deleting tasks. 
+                            The primary goal of this project is to demonstrate proficiency in Mongoose and 
+                            showcase the implementation of CRUD operations in a real-world scenario.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                    <img src="/Img/Screenshot 2024-01-14 103808.png" alt="">
+                    <div class="layer">
+                        <h3>add_to_cart</h3>
+                        <p>The E-Commerce Add to Cart Feature is a client-side web application developed using the Angular framework. 
+                            This project focuses on creating a seamless and responsive user experience for an online shopping platform 
+                            by implementing the essential "Add to Cart" functionality. The primary goal is to enable users 
+                            to easily add products to their shopping cart, providing a 
+                            foundational element for a complete e-commerce application.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p> <i class="fas fa-paper-plane"></i> vhm0067@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 9345900774</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/venkatesh8870" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="" class="btn btn2">download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="enter your name">
+                        <input type="text" name="email" placeholder="enter your e-mail">
+                        <textarea name="message" rows="6" placeholder="your message">
+
+                        </textarea>
+                        <button type="submit" class="btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i id="msg"></i>
+    
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabcontents=document.getElementsByClassName('tab-contents');
+
+        function tabopen(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove('active-link')
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+
+</body>
+<script>
+
+ const scriptURL = 'https://script.google.com/macros/s/AKfycbxGHQ41TqLtskQwSAXKsAeBX1LUTGUpvMKES63N3FPsDxfN4YSxPAdp7NCLgW9W9bHb/exec'
+ const form = document.forms['submit-to-google-sheet'] 
+ form.addEventListener('submit', e => { 
+ e.preventDefault() 
+ fetch(scriptURL, { method: 'POST', body: new FormData(form)}) 
+ .then(response => console.log('Success!', response)) 
+ .catch(error => console.error('Error!', error.message)) 
+ })
+
+  </script>
+</html>
